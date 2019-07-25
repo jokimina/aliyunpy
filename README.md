@@ -1,6 +1,10 @@
 [![Python3](https://img.shields.io/badge/python-3.7-green.svg?style=plastic)](https://www.python.org/) 
-## 阿里云SDK, 官方的觉得有点难用所以简单封装了下, 内部用起来比较顺手, 不过比较粗糙, 有人用的话会考虑好好完善下.
+## 阿里云SDK, 官方的觉得有点难用所以简单封装了下, 内部用起来比较顺手, 不过比较粗糙, 欢迎PR
 ### 使用示例
+#### 安装
+```bash
+pip install aliyunpy
+```
 ```python
 from aliyunpy.client import AliyunClient
 c = AliyunClient('xxx', 'xxx', 'cn-beijing')
